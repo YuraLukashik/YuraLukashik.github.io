@@ -443,3 +443,16 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+ul.contacts {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+ul.contacts li {
+    float: left;
+}
+
+ul.contacts li .data-bold {
+    font-size: 23px;
+}
