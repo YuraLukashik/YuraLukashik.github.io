@@ -47,7 +47,7 @@
         <header class="inner">
             <div class="row">
                 <div class="col-md-3">
-                    <img src="images/me.jpg" width="100px"/>
+                    <img src="https://avatars2.githubusercontent.com/u/4070636?v=3&s=460" width="100px"/>
                 </div>
                 <div class="col-md-9">
                     <h1 id="project_title">Yura Lukashik</h1>
@@ -56,21 +56,26 @@
                     <small><a id="forkme_banner" href="https://github.com/YuraLukashik">View on GitHub</a></small>
                 </div>
             </div>
-
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
         <section id="main_content" class="inner">
-            <h3>
-                <a id="who-am-i" class="anchor" href="#who-am-i" aria-hidden="true"><span aria-hidden="true"
-                                                                                          class="octicon octicon-link"></span></a>Who
-                am I?</h3>
-
-            <p>Just another web artisan &amp; one who likes to learn new things.</p>
+            <p>My name is Yura Lukashik.</p>
         </section>
     </div>
+    <script src="https://npmcdn.com/dropbox/dist/Dropbox-sdk.min.js"></script>
+<script>
+  var dbx = new Dropbox();
+  dbx.filesListFolder({path: ''})
+    .then(function(response) {
+      console.log(response);
+    })
+    .catch(function(error) {
+      console.log(error);
+    });
+</script>
 
     <!-- FOOTER  -->
     <!--<div id="footer_wrap" class="outer">-->
