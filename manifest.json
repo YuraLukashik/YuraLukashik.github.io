@@ -1,0 +1,24 @@
+{
+  "background_color": "#ffffff",
+  "description": "Yura Lukashik : Software Developer &amp;amp; Mathematician",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "yuralukashik.github",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "yuralukashik.github",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "/favicon.ico"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": []
+}
