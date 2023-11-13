@@ -13,11 +13,9 @@
   "screenshots": [],
   "icons": [
     {
-      "src": "/images/me_512.png"
-    },
-    {
       "src": "/images/me_512.png",
-      "type": "image/x-icon"
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "shortcuts": []
