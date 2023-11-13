@@ -13,10 +13,10 @@
   "screenshots": [],
   "icons": [
     {
-      "src": "/favicon.ico"
+      "src": "/images/me_512.png"
     },
     {
-      "src": "/favicon.ico",
+      "src": "/images/me_512.png",
       "type": "image/x-icon"
     }
   ],
