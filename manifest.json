@@ -9,7 +9,10 @@
   "short_name": "yuralukashik.github",
   "start_url": "/",
   "theme_color": "#ffffff",
-  "categories": [],
+  "categories": [
+    "books",
+    "education"
+  ],
   "screenshots": [],
   "icons": [
     {
